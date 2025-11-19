@@ -1,50 +1,145 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
   <html>
   <head>
-      <title>JTBD Mastery Support</title>
+      <title>JTBD Mastery - Master Jobs-to-be-Done</title>
       <style>
-          body { font-family: -apple-system, sans-serif; max-width: 800px; margin: 50px auto; padding: 20px; }
-          h1 { color: #dc2626; }
-          h2 { color: #333; margin-top: 30px; }
+          body {
+              font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+              margin: 0;
+              padding: 0;
+              line-height: 1.6;
+          }
+          .hero {
+              background: linear-gradient(135deg, #dc2626 0%, #991b1b 100%);
+              color: white;
+              padding: 60px 20px;
+              text-align: center;
+          }
+          .hero h1 {
+              font-size: 48px;
+              margin: 0 0 20px 0;
+              font-weight: 700;
+          }
+          .hero p {
+              font-size: 20px;
+              margin: 0 0 30px 0;
+              opacity: 0.95;
+          }
+          .download-badge {
+              display: inline-block;
+              margin: 20px 0;
+          }
+          .download-badge img {
+              height: 50px;
+          }
+          .features {
+              max-width: 1200px;
+              margin: 60px auto;
+              padding: 0 20px;
+              display: grid;
+              grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+              gap: 40px;
+          }
+          .feature {
+              text-align: center;
+          }
+          .feature-icon {
+              font-size: 48px;
+              margin-bottom: 20px;
+          }
+          .feature h3 {
+              color: #dc2626;
+              margin: 10px 0;
+          }
+          .content {
+              max-width: 800px;
+              margin: 0 auto;
+              padding: 40px 20px;
+          }
+          h2 {
+              color: #dc2626;
+              margin-top: 40px;
+              border-top: 2px solid #f3f4f6;
+              padding-top: 40px;
+          }
+          ul { line-height: 1.8; }
       </style>
   </head>
   <body>
-      <h1>JTBD Mastery Support</h1>
-      <p>Contact us at: <a href="mailto:vikram@ceoworks.com">vikram@ceoworks.com</a></p>
-      <p>For issues, questions, or feedback about JTBD Mastery.</p>
+      <!-- HERO SECTION -->
+      <div class="hero">
+          <h1>JTBD Mastery</h1>
+          <p>Master Jobs-to-be-Done for hiring, succession planning, and key initiatives</p>
+          <p style="font-size: 16px; opacity: 0.9;">Learn to define critical work with specific, measurable
+  outcomes</p>
 
-      <h2>Privacy Policy</h2>
-      <p><strong>Effective Date:</strong> November 19, 2025</p>
+          <!-- App Store Badge (you can add this after app is live) -->
+          <div class="download-badge">
+              <a href="https://apps.apple.com/app/jtbd-mastery/id6755090115">
+                  <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" 
+  alt="Download on App Store">
+              </a>
+          </div>
+      </div>
 
-      <h3>What We Collect</h3>
-      <ul>
-          <li>JTBD statements you create (stored locally on your device)</li>
-          <li>Learning progress (stored locally on your device)</li>
-          <li>Statements submitted for AI critique (sent to our servers for analysis)</li>
-      </ul>
+      <!-- FEATURES SECTION -->
+      <div class="features">
+          <div class="feature">
+              <div class="feature-icon">📚</div>
+              <h3>Learn Mode</h3>
+              <p>Study 10 real-world examples from Fortune 500 companies</p>
+          </div>
+          <div class="feature">
+              <div class="feature-icon">🔨</div>
+              <h3>Build Mode</h3>
+              <p>Create your own JTBD statements with AI-powered guidance</p>
+          </div>
+          <div class="feature">
+              <div class="feature-icon">🔍</div>
+              <h3>Critique Mode</h3>
+              <p>Get instant AI feedback on any JTBD statement</p>
+          </div>
+      </div>
 
-      <h3>How We Use It</h3>
-      <ul>
-          <li>To provide AI-powered feedback on your JTBD statements</li>
-          <li>To save your learning progress</li>
-          <li>All data is stored locally on your device except critique requests</li>
-      </ul>
+      <!-- SUPPORT & PRIVACY CONTENT -->
+      <div class="content">
+          <h2>Support</h2>
+          <p>Need help? Contact us at: <a href="mailto:vikram@ceoworks.com">vikram@ceoworks.com</a></p>
+          <p>For issues, questions, or feedback about JTBD Mastery.</p>
 
-      <h3>Data Sharing</h3>
-      <ul>
-          <li>We do not sell or share your personal data</li>
-          <li>AI critiques are processed securely and not shared with third parties</li>
-      </ul>
+          <h2>Privacy Policy</h2>
+          <p><strong>Effective Date:</strong> November 19, 2025</p>
 
-      <h3>Your Rights</h3>
-      <ul>
-          <li>All data is stored on your device and can be deleted by uninstalling the app</li>
-          <li>You control what statements you submit for critique</li>
-      </ul>
+          <h3>What We Collect</h3>
+          <ul>
+              <li>JTBD statements you create (stored locally on your device)</li>
+              <li>Learning progress (stored locally on your device)</li>
+              <li>Statements submitted for AI critique (sent to our servers for analysis)</li>
+          </ul>
 
-      <h3>Contact</h3>
-      <p>Email: <a href="mailto:vikram@ceoworks.com">vikram@ceoworks.com</a></p>
+          <h3>How We Use It</h3>
+          <ul>
+              <li>To provide AI-powered feedback on your JTBD statements</li>
+              <li>To save your learning progress</li>
+              <li>All data is stored locally on your device except critique requests</li>
+          </ul>
 
-      <p><em>Last Updated: November 2025</em></p>
+          <h3>Data Sharing</h3>
+          <ul>
+              <li>We do not sell or share your personal data</li>
+              <li>AI critiques are processed securely and not shared with third parties</li>
+          </ul>
+
+          <h3>Your Rights</h3>
+          <ul>
+              <li>All data is stored on your device and can be deleted by uninstalling the app</li>
+              <li>You control what statements you submit for critique</li>
+          </ul>
+
+          <h3>Contact</h3>
+          <p>Email: <a href="mailto:vikram@ceoworks.com">vikram@ceoworks.com</a></p>
+
+          <p><em>Last Updated: November 2025</em></p>
+      </div>
   </body>
   </html>
